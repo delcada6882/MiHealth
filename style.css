@@ -1,0 +1,146 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("moroccan-flower.png");
+}
+.header {
+    background-color: white;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+.bottom {
+    margin:40px 80px 100px 80px;
+    display: flex;
+    flex-flow: row;
+    font-family: 'Lato';
+    justify-content: space-around;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+li {
+    list-style: none;
+    color: black;
+    flex-flow: row;
+    margin: 0 80px 0 0;
+    font-family: 'Lato';
+}
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 17px
+}
+a:hover {
+    color: gray;
+    transition: 0.2s;
+}
+.headerText {
+    display: flex;
+    flex-flow: row;
+    font-family: 'Rubik Dirt';
+    margin: 0 0 0 80px;
+    font-size: 18px;
+}
+#mi {
+    color: #fb7f09;
+}
+#health {
+    color: #5756ac;
+}
+.foodDescription h1 {
+    font-weight: 100000;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.foodDescription p {
+    font-size: 20px;
+}
+.foodDescription {
+    width: 25%;
+    align-items: center;
+}
+.foodDescription h6 {
+    font-weight: bolder;
+}
+.picturesFood {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    justify-content: space-around
+}
+
+
+.food1 {
+    background: url('apple-breakfast-quinoa-7.jpeg') center/125%;
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-top: 40%;
+    flex-flow: column;
+}
+.food1 h6 {
+    margin: 0;
+    font-size: 20px;
+}
+.food1 .orange {
+    background-color: #fb7f09;
+    padding: 7px;
+    padding-left: 32%;
+}
+.food1 .white {
+    background-color: white;
+    padding: 7px;
+}
+
+
+.food2 {
+    background: url('pasta-salad-recipe-for-lunch.jpeg') center/125%;
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-flow: column;
+}
+.food2 h6 {
+    margin: 0;
+    font-size: 20px;
+}
+.food2 .orange {
+    background-color: #fb7f09;;
+    padding: 7px;
+    padding-left: 38%;
+}
+.food2 .white {
+    background-color: white;
+    padding: 7px;
+}
+
+
+.food3 {
+    background: url('Shrimp.jpeg') center/200%;
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-flow: column;
+}
+.food3 h6 {
+    margin: 0;
+    font-size: 20px;
+}
+.food3 .orange {
+    background-color: #fb7f09;;
+    padding: 7px;
+    padding-left: 30%;
+}
+.food3 .white {
+    background-color: white;
+    padding: 7px;
+}
